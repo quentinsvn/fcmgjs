@@ -19,7 +19,7 @@
     padding-left: 20px;
 }
 
-.icons_menu li > span > i {
+.icons_menu li > a {
    font-size: 20px;
    padding-top: 5px;
    color: #a3a3ac;
@@ -47,15 +47,14 @@ input:hover {
 .ant-popover-inner-content {
     color: white !important;
     background-color: #1d1d1f !important;
-    border-radius: 5px;
     border: none !important;
 }
 
 .ant-popover-placement-bottom > .ant-popover-content > .ant-popover-arrow, .ant-popover-placement-bottomLeft > .ant-popover-content > .ant-popover-arrow, .ant-popover-placement-bottomRight > .ant-popover-content > .ant-popover-arrow {
     top: 6px;
     border-top-color: grey !important;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
+    border-right-color: #1d1d1f !important;
+    border-bottom-color: #1d1d1f !important;
     border-left-color: grey !important;
     box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.06);
 }

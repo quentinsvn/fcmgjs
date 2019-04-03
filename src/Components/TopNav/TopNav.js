@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Input, Popover } from 'antd';
+import { NavLink } from "react-router-dom";
 import './topnav.css';
 
 export default class TopNav extends Component {
@@ -23,27 +24,27 @@ export default class TopNav extends Component {
                         /></li>   
                      <li>
                         <Popover placement="bottom" content={content.home}>
-                          <span><i class="icon fas fa-home"></i></span>
+                          <NavLink to="/"><span><i class="icon fas fa-home"></i></span></NavLink>
                         </Popover> 
                     </li>
                       <li>
                         <Popover placement="bottom" content={content.scores}>
-                          <span><i class="icon fas fa-table"></i></span>
+                          <NavLink to="/leaderboard"><span><i class="icon fas fa-table"></i></span></NavLink>
                         </Popover>     
                       </li>
                       <li>
                         <Popover placement="bottom" content={content.events}> 
-                          <span><i class="icon fas fa-users"></i></span>
+                          <NavLink to="/teams"><span><i class="icon fas fa-users"></i></span></NavLink>
                         </Popover>      
                       </li>
                       <li>
                         <Popover placement="bottom" content={content.teams}>   
-                          <span><i class="icon fas fa-exclamation-triangle"></i></span>
+                          <NavLink to="/events"><span><i class="icon fas fa-exclamation-triangle"></i></span></NavLink>
                           </Popover>       
                       </li>
                       <li>
                        <Popover placement="bottom" content={content.news}>     
-                          <span><i class="icon fas fa-newspaper"></i></span>
+                          <NavLink to="/news"><span><i class="icon fas fa-newspaper"></i></span></NavLink>
                        </Popover>      
                      </li>
                   </ul>
