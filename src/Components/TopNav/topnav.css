@@ -1,0 +1,44 @@
+.TopNav {
+    background-color: #1d1d1f;
+    padding:10px 0;
+	margin:0;
+    overflow:hidden;
+}
+
+.icons_menu {
+    margin: 0 !important;
+    list-style: none;
+}
+
+.icons_menu li {
+    list-style-type:none;
+	float:left;
+	padding:0;
+	margin:0;
+}
+
+.icons_menu li > i {
+   padding-left: 20px;
+   font-size: 20px;
+   padding-top: 5px;
+   color: #a3a3ac;
+   cursor: pointer;
+}
+
+.icons_menu li > i:hover {
+    color: white;
+}
+
+input {
+    background: #2d2d32 !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+input:hover {
+    border: none !important;
+}
+
+.ant-input-search-icon {
+    color: white !important;
+}
