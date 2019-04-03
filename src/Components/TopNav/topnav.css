@@ -8,6 +8,7 @@
 .icons_menu {
     margin: 0 !important;
     list-style: none;
+    padding: 0 !important;
 }
 
 .icons_menu li {
