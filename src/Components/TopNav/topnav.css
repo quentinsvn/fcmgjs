@@ -26,8 +26,8 @@
    cursor: pointer;
 }
 
-.icons_menu li > i:hover {
-    color: white;
+.icon:hover {
+    color: white !important;
 }
 
 input {

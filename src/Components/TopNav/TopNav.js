@@ -23,27 +23,27 @@ export default class TopNav extends Component {
                         /></li>   
                      <li>
                         <Popover placement="bottom" content={content.home}>
-                          <span><i class="fas fa-home"></i></span>
+                          <span><i class="icon fas fa-home"></i></span>
                         </Popover> 
                     </li>
                       <li>
                         <Popover placement="bottom" content={content.scores}>
-                          <span><i class="fas fa-table"></i></span>
+                          <span><i class="icon fas fa-table"></i></span>
                         </Popover>     
                       </li>
                       <li>
                         <Popover placement="bottom" content={content.events}> 
-                          <span><i class="fas fa-users"></i></span>
+                          <span><i class="icon fas fa-users"></i></span>
                         </Popover>      
                       </li>
                       <li>
                         <Popover placement="bottom" content={content.teams}>   
-                          <span><i class="fas fa-exclamation-triangle"></i></span>
+                          <span><i class="icon fas fa-exclamation-triangle"></i></span>
                           </Popover>       
                       </li>
                       <li>
                        <Popover placement="bottom" content={content.news}>     
-                          <span><i class="fas fa-newspaper"></i></span>
+                          <span><i class="icon fas fa-newspaper"></i></span>
                        </Popover>      
                      </li>
                   </ul>
