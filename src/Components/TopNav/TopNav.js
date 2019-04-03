@@ -17,7 +17,7 @@ export default class TopNav extends Component {
               <div className="menu">
                   <ul className="icons_menu">  
                       <li><Search  
-                             placeholder="Rechercher..."
+                             placeholder="Rechercher un utilisateur, team..."
                              onSearch={value => console.log(value)}
                              style={{ width: 300, }}
                         /></li>   
