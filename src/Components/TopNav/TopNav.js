@@ -10,7 +10,7 @@ export default class TopNav extends Component {
     content.home = "Accueil";
     content.scores = "Tableau des scores";
     content.teams = "Teams"
-    content.events = "Evenements";
+    content.events = "Événements";
     content.news = "Articles";
     return (
       <div className="TopNav">
@@ -33,12 +33,12 @@ export default class TopNav extends Component {
                         </Popover>     
                       </li>
                       <li>
-                        <Popover placement="bottom" content={content.events}> 
+                        <Popover placement="bottom" content={content.teams}> 
                           <NavLink to="/teams"><span><i class="icon fas fa-users"></i></span></NavLink>
                         </Popover>      
                       </li>
                       <li>
-                        <Popover placement="bottom" content={content.teams}>   
+                        <Popover placement="bottom" content={content.events}>   
                           <NavLink to="/events"><span><i class="icon fas fa-exclamation-triangle"></i></span></NavLink>
                           </Popover>       
                       </li>
