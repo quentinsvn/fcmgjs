@@ -6,12 +6,14 @@ import './topnav.css';
 export default class TopNav extends Component {
   render() {
     const Search = Input.Search;
-    var content = new Object();
-    content.home = "Accueil";
-    content.scores = "Tableau des scores";
-    content.teams = "Teams"
-    content.events = "Événements";
-    content.news = "Articles";
+    const content = new Object({
+      home: "Accueil",
+      scores: "Tableau des scores",
+      teams: "Teams",
+      events: "Événements",
+      news: "Articles"
+    });
+     
     return (
       <div className="TopNav">
          <header className="topnav_content">
