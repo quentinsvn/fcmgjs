@@ -8,7 +8,9 @@ export default class HomeCarousel extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 11000,
     };
     return (
       <div>  
