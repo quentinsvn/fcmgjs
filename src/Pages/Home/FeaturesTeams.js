@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
 import { Card, Carousel } from 'antd';
+import CardsTeam from '../../Components/Cards/CardsTeams';
 
 export default class FeaturesTeams extends Component {
   render() {
@@ -16,34 +17,22 @@ export default class FeaturesTeams extends Component {
         <h1>Teams populaires</h1>
         <Slider {...settings}>
         <div>
-          <Card style={{marginRight: "50px", marginLeft:"50px"}}>
-            <div>Team 1</div>
-          </Card>
+          <CardsTeam />
         </div>
         <div>
-        <Card style={{marginRight: "50px", marginLeft:"50px"}}>
-            <div>Team 2</div>
-          </Card>
+          <CardsTeam />
         </div>
         <div>
-        <Card style={{marginRight: "50px", marginLeft:"50px"}}>
-            <div>Team 3</div>
-          </Card>
+          <CardsTeam />
         </div>
         <div>
-        <Card style={{marginRight: "50px", marginLeft:"50px"}}>
-            <div>Team 4</div>
-          </Card>
+        <CardsTeam />
         </div>
         <div>
-        <Card style={{marginRight: "50px", marginLeft:"50px"}}>
-            <div>Team 5</div>
-          </Card>
+          <CardsTeam />
         </div>
         <div>
-        <Card style={{marginRight: "50px", marginLeft:"50px"}}>
-            <div>Team 6</div>
-          </Card>
+        <CardsTeam />
         </div>
       </Slider>
         
