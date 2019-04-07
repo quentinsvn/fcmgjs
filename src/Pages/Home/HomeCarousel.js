@@ -4,7 +4,7 @@ import { Carousel } from 'antd';
 export default class HomeCarousel extends Component {
   render() {
     const settings = {
-      dots: false,
+      dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
