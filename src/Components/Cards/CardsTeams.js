@@ -9,7 +9,7 @@ export default class CardsTeams extends Component {
       <div>
         <div class="card_team">
         <div class="card_back">
-            <div class="background" style={{backgroundImage: `url(https://s3-us-west-2.amazonaws.com/www.guilded.gg/users/R40kK0YA/profileBannerImages/c106fd10-fd42-0b7a-6bca-9a3f0fc2c230-blur.jpg)`}}></div>
+            <div class="background" style={{backgroundImage: `url(https://cdn2.unrealengine.com/Fortnite%2FBattle-pass%2Fseason-8%2FBR08_Web_BPLanding_Hero-3840x2160-654d400e12d58c3a97d6e75dc560df6ac46d3ea3.jpg)`}}></div>
         </div>
         <div class="card_content">
             <div class="team_profile">
