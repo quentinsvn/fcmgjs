@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
-import { Card, Carousel } from 'antd';
 import CardsTeam from '../../Components/Cards/CardsTeams';
 
 export default class FeaturesTeams extends Component {

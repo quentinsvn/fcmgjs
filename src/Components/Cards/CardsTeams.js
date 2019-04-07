@@ -13,7 +13,7 @@ export default class CardsTeams extends Component {
         </div>
         <div class="card_content">
             <div class="team_profile">
-              <img src={logo} />
+              <img src={logo} alt=""/>
             </div>
             <div class="team_title">
               <h5>Nom de la team</h5>
