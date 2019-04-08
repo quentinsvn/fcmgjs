@@ -39,7 +39,7 @@ export default class FeaturesTeams extends Component {
       ]
     };
     return (
-      <div className="container">
+      <div className="container teamsv">
         <h1>Teams populaires</h1>
         <Slider {...settings}>
         <div>

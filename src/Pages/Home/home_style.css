@@ -18,6 +18,10 @@ html, body {
     overflow: hidden;
   }
 
+  .teamsv .card_team {
+    margin-left: 20px;
+  }
+
   .center {
     margin-top: 0 !important;
 }
