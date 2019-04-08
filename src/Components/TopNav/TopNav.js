@@ -19,10 +19,11 @@ export default class TopNav extends Component {
          <header className="topnav_content">
               <div className="menu">
                   <ul className="icons_menu">  
-                      <li><Search  
+                      <li><Search
+                             className="searchbar"
                              placeholder="Rechercher un utilisateur, team..."
                              onSearch={value => console.log(value)}
-                             style={{ width: 300, }}
+        
                         /></li>   
                      <li>
                         <Popover placement="bottom" content={content.home}>

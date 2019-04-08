@@ -58,3 +58,11 @@ input:hover {
     border-left-color: grey !important;
     box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.06);
 }
+
+input {
+    width:250px !important;
+    transition:width .5s !important;
+ }
+ input:focus {
+    width:400px !important;
+ }
