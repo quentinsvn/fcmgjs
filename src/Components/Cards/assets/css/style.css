@@ -12,9 +12,9 @@
     background: #2d2d32;
     border-radius: 5px;
     box-shadow: 0 26px 40px -24px #000;
-    width: 268px;
-    min-width: 268px;
-    min-height: 305px;
+    width: 320px;
+    min-width: 320px;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
