@@ -6,6 +6,7 @@ html, body {
   margin-top: 20px;
   margin-right: 150px;
   margin-left: 150px;
+  margin-bottom: 20px;
 }
 
 /* For demo */
@@ -24,4 +25,44 @@ html, body {
   .ant-carousel .slick-slide h3 {
     color: #fff;
   }
+
+  .events_infos i {
+    padding-right: 10px;
+  }
   
+  .events .ant-card {
+    height: 300px;
+    margin-left: 20px;
+    color: white;
+    background-color: #353b48;
+  }
+
+  .events .ant-card-body {
+    background-color: #353b48;
+  }
+
+  .events .ant-card-head {
+    background-color: #2f3640;
+    color: white;
+  }
+
+  .events_infos {
+    list-style: none;
+    padding: 0 !important;
+    line-height: 2;
+  }
+
+  .button_join button {
+    width: 100%;
+    margin-top: 70px;
+    background-color: #f1c40f;
+    border: none;
+  }
+
+  .button_join button:focus {
+    background-color: #f1c40f;
+  }
+
+  .button_join button:hover {
+    background-color: #f1c40f;
+  }

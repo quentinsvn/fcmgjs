@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HomeCarousel from './HomeCarousel';
 import FeaturesTeams from './FeaturesTeams';
+import LastsEvents from './LastsEvents';
 import './home_style.css';
 
 export default class HomePage extends Component {
@@ -9,6 +10,7 @@ export default class HomePage extends Component {
       <div>
         <HomeCarousel/> 
         <FeaturesTeams/>
+        <LastsEvents />
       </div>
     )
   }

@@ -23,7 +23,6 @@ export default class TopNav extends Component {
                              className="searchbar"
                              placeholder="Rechercher un utilisateur, team..."
                              onSearch={value => console.log(value)}
-        
                         /></li>   
                      <li>
                         <Popover placement="bottom" content={content.home}>
