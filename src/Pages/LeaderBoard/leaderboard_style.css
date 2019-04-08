@@ -1,0 +1,42 @@
+.search_player {
+    background-color: #40739e;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.ant-input-affix-wrapper {
+   width: unset !important;
+}
+
+.searchbar_player input {
+    width: 500px !important;
+}
+
+.title h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.table_scores table {
+    color: white !important;
+    background-color: #2f3640;
+}
+
+.table_scores thead {
+    background-color: #353b48 !important;
+}
+
+.table_scores a{
+    color: white !important;
+}
+
+tr:hover{
+    color: black !important;
+    transition: none !important;
+}
+
+tr a:hover {
+    color: black !important;
+}
